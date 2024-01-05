@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 800;
+}
+.logo{
+    color:blue;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 25px;
+}
+nav a {
+    text-decoration: none;
+    color:blue;
+}
+.button{
+border-radius: 5px;
+background: blue;
+border: 0;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+color:white;
+
+}
