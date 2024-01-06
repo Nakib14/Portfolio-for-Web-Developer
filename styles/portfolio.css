@@ -39,9 +39,11 @@ color:white;
 }
 .header{
     background-color:antiquewhite;
+    background-image: url('../header_bg.png');
+   
 }
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -51,4 +53,23 @@ color:white;
     flex-shrink: 0;
     margin-right: 0;
     padding:0;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:rgb(99, 99, 240);
+    margin:130px 0;
+
+}
+.me{
+ color:black;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+
+.intro{
+    color: black;
+    text-align: center;
+    font-size: 18px;
 }
