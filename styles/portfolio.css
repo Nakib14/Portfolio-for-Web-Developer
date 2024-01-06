@@ -10,7 +10,7 @@ nav{
 }
 .title{
     color: var(--Dark-01, #181818);
-    font-size: 35px;
+    font-size: 35px;, 41
     font-weight: 800;
 }
 .logo{
@@ -26,6 +26,12 @@ nav li{
 }
 nav a {
     text-decoration: none;
+    color:blue;
+}
+main section{
+    margin: 0px;
+}
+.name{
     color:blue;
 }
 .button{
@@ -55,11 +61,11 @@ color:white;
     padding:0;
 }
 .about{
-    padding: 130px;
+    padding: 100px;
     border-radius: 10px;
     background:rgb(99, 99, 240);
     margin:130px 0;
-
+    box-shadow:10px 16px 40px 0px rgba(0, 0, 0, 0.658);
 }
 .me{
  color:black;
@@ -82,3 +88,25 @@ main{
 #what{
     padding: 30px 150px;
 }
+.skills{
+    display: flex;
+    gap:24px
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(254, 254, 255, 0.945);
+    box-shadow: 10px 16px 40px 0px rgba(0, 0, 0, 0.658); 
+}
+.skill-description{
+    color:grey;
+}
+.skill-title{
+    color: black;
+}
+.resume-coloumn-title{
+    color: var(#474747);
+    font-size: 30px;
+    font-weight: 700;
+    }
