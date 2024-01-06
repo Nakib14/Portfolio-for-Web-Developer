@@ -110,3 +110,27 @@ main{
     font-size: 30px;
     font-weight: 700;
     }
+    .details{
+        display: flex;
+        gap:50px;
+    }
+    .resume-item-edu{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .resume-item-description, .resume-item-edu{
+        color: #757575;
+    }
+    .resume-item-title{
+        color:#474747;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .details{
+        margin: 30px;
+    }
+    .CV{
+        text-align: center;
+        margin-top: 40px;
+    }
